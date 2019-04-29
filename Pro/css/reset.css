@@ -1,0 +1,227 @@
+@charset "utf-8";
+body,ul,ol,li,dl,dd,h1,h2,h3,h4,h5,h6,p,input,textarea,select,figure{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+input,textarea,select{border: none; background-color: transparent; outline: none;}
+textarea{resize: none;}
+img{border: none;vertical-align: top;}
+a{text-decoration: none;}
+a {-webkit-tap-highlight-color:transparent;}
+html {-webkit-text-size-adjust: none;}
+a{outline:0}
+em{ font-style: normal;}
+.fl{float: left;} .fr{float: right;}
+.clearfix:after,.clearfix:before{content: ""; display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+.title{
+     height: 4rem;
+     background: #38474F;
+     padding:0.75rem 0.625rem 0rem 0.625rem;
+     
+}
+.yy{
+     box-shadow: 0rem 0.1875rem 0.3125rem #B9B9B9;
+}
+ .jc{
+ 	font-weight: bold;
+ }
+.mt{
+     margin-top: 0.65rem;
+}
+ .yj{
+     border-radius: 0.1rem;
+}
+
+ .xiangzuo{
+     font-size: 0.65rem;
+     color: #242D32;
+}
+.bttds{
+	font-size: 0.65rem;
+	color: #fff;
+	margin-left: 0.6rem;
+}
+.gwc{
+     font-size: 0.65rem;
+     color: #242D32;
+     float: right;
+     margin-top: 0.4rem;
+}
+.title_box{
+     width: 100%;
+     height: 1.575rem;
+     margin-top: 0.5rem;
+}
+ .title_l{
+     width: 7.175rem;
+     height: 1.575rem;
+     background: #2D3A40;
+     color: #fff;
+     border-radius: 0.075rem;
+     float: left;
+     line-height: 1.575rem;
+     font-size: 0.4rem;
+     text-align: center;
+}
+ .title_r{
+     width: 7.175rem;
+     height: 1.575rem;
+     background: #F6846A;
+     color: #fff;
+     border-radius: 0.075rem;
+     float: right;
+     line-height: 1.575rem;
+     font-size: 0.4rem;
+     text-align: center;
+}
+.text_box{
+	height: 100%;
+	background: #E8E8E8;
+	padding: 0.625rem 0.625rem;
+}
+.banner{
+     width: 100%;
+     height: 14.8rem;
+     overflow: hidden;
+}
+.banner img{
+	width: 100%;
+}
+.banner_x{
+     line-height: 2.975rem;
+     font-size: 0.65rem;
+     background: #fff;
+     
+}
+.banner_x span{
+     margin-left: 1rem;
+}
+ 
+.banner_d{
+     height: 2.5rem;
+     background: #fff;
+     line-height: 2.5rem;
+     font-size: 0.65rem;
+     padding-left:1rem;
+}
+ 
+.jiahao{
+     padding-right: 1rem;
+     color: #A6A6AD;
+     font-size:0.65rem ;
+}
+ #jiaqan{
+     width: 3.6rem;
+     height: 1.675rem;
+     background: #BFBFC4;
+     line-height: 1.675rem;
+     text-align: center;
+     float: right;
+     margin-top: 0.65rem;
+     margin-right: 0.65rem;
+     color: #fff;
+}
+.banner_c{
+     height: 12.75rem;
+     background: #fff;
+     line-height: 2.5rem;
+     font-size: 0.65rem;
+     padding:0 1.8rem;
+}
+.test{
+	font-size: 0.65rem;
+	text-align: center;
+	display: block;
+	
+}
+.banner_c p{
+     color: #ACACB2;
+     text-align: center;
+     font-size: 0.65rem;
+     margin-top: -1.3rem;
+}
+ .mentre_box{
+     width: 6.625rem;
+     height: 1.775rem;
+     margin: 0 auto;
+     margin-top: 0.5rem;
+     margin-bottom: 0.75rem;
+}
+ .mentre{
+     width: 1.775rem;
+     height: 1.775rem;
+     background: #DADADE;
+     float: left;
+     margin-right: 0.625rem;
+     text-align:  center;
+     line-height: 1.775rem;
+     color: #fff;
+}
+ .copy{
+     font-size: 0.65rem;
+     text-align: center;
+     line-height: 1.775rem;
+     color: #fff;
+     display: block;
+}
+.mentre_box1{
+     width: 12.35rem;
+     height: 1.775rem;
+     margin: 0 auto;
+     margin-top:-.5rem;
+     margin-bottom: 0.75rem;
+}
+ .banner_e{
+     margin: 1.575rem auto;
+     width: 6.925rem;
+     height: 1.5rem;
+     background: #3A4144;
+     line-height: 1.5rem;
+     text-align: center;
+     color: #fff;
+     font-size: 0.65rem;
+}
+.span{
+     font-size:0.45rem;
+     float: left;
+     margin-right:0.875rem;
+     margin-top: -0.25rem;
+}
+.qq{
+     width: 2rem;
+     height: 2rem;
+     border-radius: 50%;
+     background: #56C2EA;
+     text-align: center;
+     line-height: 2rem;
+     color: #fff;
+     float: left;
+     margin-right: 3.625rem;
+}
+.f{
+     width: 2rem;
+     height: 2rem;
+     border-radius: 50%;
+     background: #56C2EA;
+     text-align: center;
+     line-height: 2rem;
+     color: #fff;
+     float: left;
+     margin-right: 3.475rem;
+}
+.weibo{
+     width: 2rem;
+     height: 2rem;
+     border-radius: 50%;
+     background: #56C2EA;
+     text-align: center;
+     line-height: 2rem;
+     color: #fff;
+     float: left;
+}
+#mesx{
+	height: 2rem;
+}
+ 
+ 
+ 
