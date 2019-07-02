@@ -1,0 +1,127 @@
+.title{
+     width: 100%;
+     height: 1.625rem;
+     background: #333333;
+     font-family: "微软雅黑";
+     font-size: 0.6rem;
+     color: #fff;
+     text-align: center;
+     line-height: 1.625rem;
+}
+.swiper-container {
+  width:100%
+}
+.swiper-container img{
+	width: 100%;
+	}
+.gundo{
+     width: 100%;
+     height: 1.5rem;
+     padding-left:0.425rem;
+     border-bottom: 0.025rem solid #EFEFEF;
+}
+ .gundo img{
+     width: 1.05rem;
+     height: 1rem;
+     margin-top:0.275rem ;
+     float: left;
+     margin-right: 0.225rem;
+}
+.swiper-container1{
+	overflow:hidden;
+	width: 13.55rem;
+	height: 1.5rem;
+	float: left;
+}
+.sp1{
+	font-family: "微软雅黑";
+	font-size: 0.45rem;
+	color: #333333;
+}
+.name{
+	color: #41C451;
+}
+.jine{
+	color: #E10000;
+}
+.tubiao{
+	width: 18rem;
+	margin: 0 auto;
+}
+.tubiao img{
+	width: 3.325rem;
+	float: left;
+     padding:1.25rem 1.25rem ;
+}
+.tiaotao{
+     height: 0.625rem;
+     background: #EFEFEF;
+     margin-top: 6rem
+}
+.div1{
+     border-left: 0.0625rem solid ;
+     border-image: linear-gradient(#FFF,#E1E1E1,#FFF) 30 30;
+}
+.span1{
+	font-family: "微软雅黑";
+	font-size: 1.125rem;
+	color: #000;
+	font-weight: bold;
+	padding-left: 0.625rem;
+	border-left: 0.1875rem solid #F4741E;
+	margin-left: 1.25rem;
+	margin-top: 1.25rem;\
+	margin-bottom: 1.25rem;
+}
+.span2{
+	font-family: "微软雅黑";
+	font-size: 1rem;
+	color: #D3D3D3;
+	float: right;
+	margin-top: -2.25rem
+	margin-right: 1.25rem;
+	font-weight: normal;
+}
+.div2{
+	width: 24.5%;
+	height:6.925rem;
+	float: left;
+	border-top:0.0625rem solid #EFEFEF ;
+	border-right: 0.0625rem solid #EFEFEF;
+}
+.div2 img{
+	height:34%;
+	margin-top: 20px;
+	margin-left:30%;
+	margin-bottom: 0rem;
+}
+.div2 h3{
+	font-size: 0.95rem;
+	text-align: center;
+	line-height: 1.25rem;
+}
+.div2 p{
+	font-size: 0.2rem;
+	text-align: center;
+	color: #BBBBBB;
+}
+.bottom{
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+}
+.an{
+	float: left;
+	width: 25%;
+	height: 91px;
+	background: #333333;
+}
+.an img{
+	margin-top: 10px;
+	margin-left: 23%;
+}
+.an p{
+	margin-top: 10px;
+	text-align: center;
+	color: #fff;
+}

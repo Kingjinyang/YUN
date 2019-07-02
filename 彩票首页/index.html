@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>彩票首页</title>
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="font/" />
+    <link rel="stylesheet" href="css/comme.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+	<script src="css/swiper.min.js"></script>
+	<script>
+        window.onload = window.onresize = function(){
+            var vi ew_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+   </script>
+</head>
+<body>
+	<div class="title">网站首页</div>
+	<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+        	<a href="#"><img src="images/banner.png"/></a>
+        </div>
+        <div class="swiper-slide">
+        	<a href="#"><img src="images/banner.png"/></a>
+        </div>
+        <div class="swiper-slide">
+        	<a href="#"><img src="images/banner.png"/></a>
+        </div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+</div>
+<div class="gundo">
+	<img src="images/laba.png"/><div class="swiper-container1">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+        	<a href="#"><span class="sp1">恭喜<span class="name">周旺</span>满城五分彩喜中<span class="jine">1000000</span>元</span></a>
+        </div>
+        <div class="swiper-slide">
+        	<a href="#"><span class="sp1">恭喜<span class="name">大萌比</span>河软五分彩喜中<span class="jine">8888888</span>元</span></a>
+        </div>
+        <div class="swiper-slide">
+        	<a href="#"><span class="sp1">恭喜<span class="name">石昆</span>固安五分彩喜中<span class="jine">999999</span>元</span></a>
+        </div>
+        <div class="swiper-slide">
+        	<a href="#"><span class="sp1">恭喜<span class="name">罗智菱</span>保定五分彩喜中<span class="jine">0.000001</span>元</span></a>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="tubiao">
+	<div><a href="#"><img src="images/goucai.png"/></a></div>
+	<div><a href="#"><img class="div1" src="images/chongzhi.png"/></a></div>
+	<div><a href="#"><img class="div1" src="images/tikuan.png"/></a></div>
+</div>
+<div class="tiaotao"></div>
+<div class="caipiao">
+	<p class="span1">热门彩种<a href=""><span class="span2">MORE&gt;&gt;</span></a></p>
+	<div><div class="div2">
+		<img src="images/首页_r5_c..png"/>
+		<h3>江苏快三</h3>
+		<p>火爆开售</p>
+	</div>
+	<div class="div2">
+		<img src="images/首页_r5_c4.png"/>
+		<h3>印尼五分彩</h3>
+		<p>全天24小时开售</p>
+	</div>
+	<div class="div2">
+		<img src="images/首页_r5_c56.png"/>
+		<h3>河内五分彩</h3>
+		<p>五分钟一期</p>
+	</div>
+	<div class="div2" style="border-right:none ;">
+		<img src="images/首页_r5_c6.png"/>
+		<h3>重庆时时彩</h3>
+		<p>每天120期哦</p>
+	</div>
+	<div class="div2"style=" border-bottom: 0.0625rem solid #EFEFEF;">
+		<img src="images/首页_r5_c7.png"/>
+		<h3>新疆时时彩</h3>
+		<p>2元赢取1800</p>
+	</div>
+	</div>
+	<div class="div2"style=" border-bottom: 0.0625rem solid #EFEFEF;">
+		<img src="images/首页_r5_c8.png"/>
+		<h3>十一运夺金</h3>
+		<p>每天开奖78次</p>
+	</div>
+	<div class="div2"style=" border-bottom: 0.0625rem solid #EFEFEF;">
+		<img src="images/首页_r5_c9.png"/>
+		<h3>广东11选5</h3>
+		<p>任选玩法，中奖率高</p>
+	</div>
+	<div class="div2" style=" border-bottom: 0.0625rem solid #EFEFEF;border-right:none ;">
+		<img src="images/首页_r2_c2.png"/>
+		<h3>江西11选5</h3>
+		<p>十分钟一期</p>
+	</div>
+</div>
+<div class="bottom">
+	<div class="an">
+		<img src="images/大厅.png"/>
+		<p>购彩大厅</p>
+	</div>
+		<div class="an">
+		<img src="images/会员.png"/>
+		<p>合买跟单</p>
+	</div>
+		<div class="an">
+		<img src="images/跟单.png"/>
+		<p>开奖公告</p>
+	</div>
+		<div class="an">
+		<img src="images/中心.png"/>
+		<p>会员中心</p>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal',
+    autoplay: {
+    delay: 3000,
+  },
+    loop: true,
+    pagination: '.swiper-pagination',
+  })        
+  </script>
+  <script>        
+  var mySwiper = new Swiper ('.swiper-container1', {
+    direction: 'vertical',
+    autoplay: {
+    delay: 4000,
+  },
+    loop: true,
+  })        
+  </script>
+</body>
+</html>
