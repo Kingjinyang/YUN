@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 60px !important;">
+<head>
+	<meta charset="UTF-8">
+	<title>彩票</title>
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <script src="js/swiper.min.js"></script>
+
+    <script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+    </script>
+   
+</head>
+<body>
+	<div class="top">
+		<p>网站首页</p>
+	</div>
+	<div class="banner">
+	<div class="swiper-container swiper-container-horizontal">
+        <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+            <div class="swiper-slide swiper-slide-prev" ><img src="images/1.png"></div>
+            <div class="swiper-slide swiper-slide-active" ><img src="images/2.png"></div>
+            <div class="swiper-slide swiper-slide-next" ><img src="images/3.png"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+        	<span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+        	<span class="swiper-pagination-bullet"></span>
+        	<span class="swiper-pagination-bullet"></span>
+        </div>
+    </div>
+    </div>
+    <div class="roll">
+    	<div class="roll-t"><img src="images/14.png"></div>
+    	<p>恭喜<span class="t1">sallan5337</span>河内五分彩喜中<span class="t2">1000元</span></p>
+    </div>
+    <div class="tu">
+    	<div class="tu-1">
+    		<img src="images/4.png">
+    	</div>
+    	<div class="heng">
+    		<img src="images/20.png">
+    	</div>
+    	<div class="tu-2">
+    		<img src="images/5.png">
+    	</div>
+    	<div class="heng">
+    		<img src="images/20.png">
+    	</div>
+    	<div class="tu-3">
+    		<img src="images/6.png">
+    	</div>
+    </div>
+    <div class="caption">
+    	<div class="box"></div>
+    	<p>热门彩种</p>
+    	<h4>MORE>></h4>
+    </div>
+    <div class="cai">
+    	<div class="box1">
+    		<img src="images/13.png">
+    		<p>江苏快三</p>
+    		<h4>火爆开售</h4>
+    	</div>
+    	<div class="box1">
+    		<img src="images/12.png">
+    		<p>印尼五分彩</p>
+    		<h4>全天24小时开售</h4>
+    	</div>
+    	<div class="box1">
+    		<img src="images/7.png">
+    		<p>河内五分彩</p>
+    		<h4>五分钟一期</h4>
+    	</div>
+    	<div class="box2">
+    		<img src="images/8.png">
+    		<p>重庆时时彩</p>
+    		<h4>每天120期哦</h4>
+    	</div>
+    	<div class="box3">
+    		<img src="images/15.png">
+    		<p>新疆时时彩</p>
+    		<h4>2元赢取1800</h4>
+    	</div>
+    	<div class="box3">
+    		<img src="images/9.png">
+    		<p>十一运夺金</p>
+    		<h4>每天开奖78次</h4>
+    	</div>
+    	<div class="box3">
+    		<img src="images/10.png">
+    		<p>广东11选5</p>
+    		<h4>任选玩法，中奖率高</h4>
+    	</div>
+    	<div class="box4">
+    		<img src="images/11.png">
+    		<p>江西11选5</p>
+    		<h4>十分钟一期</h4>
+    	</div>
+    </div>
+    <div class="base">
+    	<div class="box5">
+    		<img src="images/16.png">
+    		<p>购彩大厅</p>
+    	</div>
+    	<div class="box6">
+    		<img src="images/17.png">
+    		<p>合买跟单</p>
+    	</div>
+    	<div class="box7">
+    		<img src="images/18.png">
+    		<p>开奖公告</p>
+    	</div>
+    	<div class="box8">
+    		<img src="images/19.png">
+    		<p>会员中心</p>
+    	</div>
+    </div>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: {
+    el: '.swiper-pagination',
+  },
+        autoplay:true,
+    });
+
+    </script>
+</body>
+</html>
