@@ -3894,6 +3894,7 @@ section.services .angled_down_outside{
     opacity: 0;
     top: 0px;
     left: 0px;
+    margin-bottom:10px;
 }
 
 .filter-isotope .filter-item:hover .info,
